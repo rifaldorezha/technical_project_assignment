@@ -72,3 +72,45 @@ li :hover{
     top: 10px;
     border-radius: 6px;
 }
+
+/* .portfolio {
+    background-color: #fff;
+    display: flex;
+    width: 500px;
+    height: 490px;
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+#self {
+    position: absolute;
+    width: 170px;
+    display: block;
+    margin-top: 20px;
+    margin-left: 200px;
+    border-radius: 100px;
+    
+}
+
+.isi {
+    position: absolute;
+    /* background-color: rgb(83, 83, 173); */
+    font-size: 18px;
+    top: 170px;
+    left: 500px;
+}
+
+th {
+    padding-right: 200px;
+    text-align: left;
+}
+caption{
+    font-weight: bold;
+}
+
+.active {
+    background-color: rgb(165, 188, 146);
+    color: black;
+    padding: 10px 12px;
+    border-radius: 8px;
+}
