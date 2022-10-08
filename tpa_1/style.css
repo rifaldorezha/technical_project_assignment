@@ -35,11 +35,19 @@ li :hover{
     border-radius: 8px;
 }
 
+.active {
+    background-color: rgb(165, 188, 146);
+    color: black;
+    padding: 10px 12px;
+    border-radius: 8px;
+}
+/* Home */
 .home {
     position: relative;
     padding: 100px 70px;
 }
 
+/* About */
 .about {
     position: relative;
     padding-top: 70px;
@@ -73,44 +81,86 @@ li :hover{
     border-radius: 6px;
 }
 
-/* .portfolio {
-    background-color: #fff;
-    display: flex;
-    width: 500px;
-    height: 490px;
-    margin-left: auto;
-    margin-right: auto;
-} */
+/* Portfolio */
 
-#self {
+.portfolio, .portfolio2 {
+    width: auto;
+    position: relative;
+}
+
+#basisdata {
     position: absolute;
-    width: 170px;
+    width: 400px;
     display: block;
-    margin-top: 20px;
-    margin-left: 200px;
-    border-radius: 100px;
+    float: left;
+    top: 20px;
+    left: 200px; 
+}
+
+#teks1 {
+    position: absolute;
+    float: left;
+    top: 270px;
+    width: 400px;
+    margin-left: 220px;
+}
+
+#android {
+    position: relative;
+    width: 400px;
+    display: block;
+    float: right;
+    top: 20px;
+    right: 200px;
+}
+
+#teks2 {
+    position: absolute;
+    width: 400px;
+    float: right;
+    top: 270px;
+    right: 180px;
     
 }
 
-.isi {
-    position: absolute;
-    /* background-color: rgb(83, 83, 173); */
-    font-size: 18px;
-    top: 170px;
-    left: 500px;
-}
-
-th {
-    padding-right: 200px;
-    text-align: left;
-}
-caption{
+/* Blog */
+#skilvul{
     font-weight: bold;
+    color: rgb(255, 48, 48);
+}
+#skilvul:hover{
+    background-color: rgb(255, 94, 94);
+    color: white;
+    padding: 5px 8px;
+    border-radius: 5px;
+}
+p{
+    color: black;
 }
 
-.active {
-    background-color: rgb(165, 188, 146);
-    color: black;
-    padding: 10px 12px;
-    border-radius: 8px;
+.main {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.row {
+    margin: 5px 10px;
+}
+.row,.row > .column {
+    padding: 1px;
+}
+
+  /* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 30%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.content {
+    background-color: white;
+    padding: 10px;
 }
