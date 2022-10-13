@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body #comingsoon {
+    background-color: rgb(85, 145, 158);
+    text-align: center;
+    font-size: 50px;
+}
+
+.active{
+    background-color: rgb(255, 255, 255);
+    color: #000;
+    cursor: pointer;
+    
+}
+
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0px;
+    background-color: #abcaca;
+    align-items: center;
+}
+
+.logo {
+    position: relative;
+    width: 50px;
+    
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    width: 30%;
+    justify-content: space-between;
+}
+nav ul li a {
+    padding: 8px 20px;
+    border-radius: 20px;
+    color: #000;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    background-color: rgb(255, 255, 255);
+    color: #000;
+    cursor: pointer;
+
+}
+
+/* Button */
+.menu_cari{
+    display: flex;
+    justify-content: center;
+    margin-top: 13px;
+    width: auto;
+}
+#btn {
+    font-size: 16;
+    background-color: white;
+    color: black;
+    padding: 5px 15px;
+    border-radius: 15px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+.menu_cari input{
+    border-radius: 100px;
+    width: 40%;
+    text-align: center;
+    cursor: pointer;
+
+}
+.menu_cari #btn:hover {
+    background-color: rgb(85, 145, 158);
+    color: white;
+}
+
+/* main */
+#list-movie {
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+    place-content: center;
+    
+}
+
+
+/* media responsive */
+@media screen and (max-width: 785px) {
+    nav ul{
+        display: none;
+    }
+    nav {
+
+    }
+    .menu-cari{
+        position: relative;
+    }
+}
+
+
